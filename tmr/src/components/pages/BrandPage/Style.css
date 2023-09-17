@@ -1,0 +1,100 @@
+.give__client {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+.give__news__title {
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.give__news__name {
+    border: 1px solid gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    margin-left: 30px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.give__news__email {
+    border: 1px solid gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    margin-left: 30px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.give__news__subject {
+    border: 1px solid gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    margin-left: 30px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.give__news__message {
+    border: 1px solid gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    margin-left: 30px;
+    padding: 10px 10px 80px;
+    width: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.give__news__button {
+    border: 1px solid rgb(5, 210, 210);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgb(5, 210, 210);
+    padding: 14px;
+    margin-left: 30px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.give__news__button:hover {
+    color: rgb(113, 14, 205);
+}
+
+.happy__title {
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.happy__logo {
+    margin-bottom: 30px;
+}
+
+.happy__image__mango, .happy__image__gucci {
+    margin-left: 30px;
+}
+
+.happy__image__nike, .happy__image__puma {
+    margin-left: 50px;
+}
+
+.happy__image__converse, .happy__image__levis {
+    margin-left: 20px;
+}
+
+.happy__image__bill {
+    margin-left: 50px;
+}

@@ -1,0 +1,23 @@
+.watch__our__story {
+    background-image: url('../../../img/video.png');
+    padding: 90px;
+}
+
+.watch__playicon {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.watch__our__story__text {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.watch__our__story__text:hover {
+    color:rgb(5, 210, 210);
+}

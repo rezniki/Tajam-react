@@ -1,0 +1,163 @@
+.footer {
+    background-image: url('../../../img/footer.png');
+}
+
+.footer__content__tajam {
+    display: flex;
+    padding-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.footer__tajam {
+    width: 30%;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__text {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gainsboro;
+}
+
+.footer__our__address {
+    margin-bottom: 20px;
+}
+
+.footer__our__title {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: gainsboro;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer__nav {
+    width: 20px;
+    height: 30px;
+}
+
+.footer__our__address__text {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gainsboro;
+}
+
+.footer__our__address {
+    display: flex;
+}
+
+.footer__our__address__text {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.footer__our__phonenumber {
+    display: flex;
+    align-items: center;
+}
+
+.footer__phonenumber__image {
+    width: 20px;
+    height: 20px;
+}
+
+.footer__phonenumber {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    color: gainsboro;
+}
+
+.footer__stay__title {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: gainsboro;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer__search {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footer__icon__facebook {
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 10px 15px 10px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.footer__icon__twitter {
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 14px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.footer__icon {
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.footer__icon__youtube {
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 11px 9px 11px 9px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.footer__tajam__creative {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.footer__help {
+    display: flex;
+}
+
+.footer__subtext__help {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer__subtext__help:hover {
+    color: rgb(5, 210, 210);
+}
+
+.footer__subtext {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+    text-transform: uppercase;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.footer__subtext:hover {
+    color: rgb(5, 210, 210);
+}
+
+.footer__creative__text {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+}

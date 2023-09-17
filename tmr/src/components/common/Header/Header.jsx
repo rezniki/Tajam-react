@@ -1,18 +1,19 @@
 import './Style.css';
+import myImg from '../../../img/logo.png';
 
-const Header = (props) => {
+const Header = () => {
     return (
-        <header class="header">
-            <div class="header__container container">
-                <img class="header__logo" src="img/logo.png" alt="Logo"></img>
-                <nav class="header__menu">
-                    <a class="header__link" href='/'>{props.home}</a>
-                    <a class="header__link" href='/about'>{props.about}</a>
-                    <a class="header__link" href='/expertise'>{props.expertise}</a>
-                    <a class="header__link" href='/teams'>{props.teams}</a>
-                    <a class="header__link" href='/works'>{props.works}</a>
-                    <a class="header__link" href='/people'>{props.people}</a>
-                    <a class="header__link" href='/contact'>{props.contact}</a>
+        <header className='header'>
+            <div className='header__container container'>
+                <img className='header__logo' src={myImg} alt="Logo"/>
+                <nav className='header__menu'>
+                    <a className='header__link' href='/'>home</a>
+                    <a className='header__link' href='/about'>about</a>
+                    <a className='header__link' href='/expertise'>expertise</a>
+                    <a className='header__link' href='/teams'>teams</a>
+                    <a className='header__link' href='/works'>works</a>
+                    <a className='header__link' href='/people'>people say</a>
+                    <a className='header__link' href='/contact'>contact</a>
                 </nav>
             </div>
         </header>

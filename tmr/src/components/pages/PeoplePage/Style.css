@@ -1,0 +1,59 @@
+.team__main {
+    background-image: url('../../../img/workers.png');
+}
+
+.team__symbol {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.team__text {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.team__name {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.team__job {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team__images {
+    display: flex;
+    align-items: center;
+    width: 28%;
+    margin: 0 auto;
+}
+
+.team__icon {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.team__image {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}

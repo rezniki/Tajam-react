@@ -1,0 +1,55 @@
+.expertise__content {
+    text-align: center;
+    padding: 50px;
+}
+
+.expertise__title {
+    font-size: 27px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.expertise__text {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+.expertise__text::after {
+    display: block;
+    content: "";
+    height: 1px;
+    background: gray;
+    width: 50px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.expertise__item__card {
+    display: flex;  
+}
+
+.expertise__item {
+    padding: 30px;
+}
+
+.expertise__item__image {
+    margin-bottom: 20px;
+}
+
+.expertise__item__title {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.expertise__item__text {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
